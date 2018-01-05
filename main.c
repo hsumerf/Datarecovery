@@ -13,15 +13,9 @@ int main(void)
 	if(card==NULL)
     {
         fprintf(stderr,"file couldn't open ");
-        return 2;
-    }
-  /*  if(argc!=2)
-    {
-        fprintf(stderr,"Usage correct: ./recover filename\n");
         return 1;
     }
-    
-    */
+  
     BYTE block[BLOCKSIZE];
     char jpgString[8];
     FILE *img;
